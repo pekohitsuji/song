@@ -63,7 +63,7 @@
 - head タグ内に以下を完全一致で入れること
 ```
 <link rel="stylesheet" href="../css/base/song.css">
-<link rel="stylesheet" href="../css/dark.css">
+<link rel="stylesheet" href="../css/dark/song.css">
 ```
 
 # 手順3
