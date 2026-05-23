@@ -10,6 +10,12 @@ cat > "${out}" << 'EOT'
 <!-- coding: utf-8-unix; mode: markdown -->
 # 曲の調査と報告
 
+## ツール
+
+| ツール | 結果 | 内容 |
+|--------|:-----|:-----|
+| [identify_ai.py](identify_ai.py) | [identify_ai.md](identify_ai.md) | どの AI で生成したか |
+
 ## 調査方法
 
 下記に [instruction](<---instruction.md>) を入力する

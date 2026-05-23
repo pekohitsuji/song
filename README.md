@@ -1,6 +1,12 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 # 曲の調査と報告
 
+## ツール
+
+| ツール | 結果 | 内容 |
+|--------|:-----|:-----|
+| [identify_ai.py](identify_ai.py) | [identify_ai.md](identify_ai.md) | どの AI で生成したか |
+
 ## 調査方法
 
 下記に [instruction](<---instruction.md>) を入力する
@@ -79,6 +85,7 @@ AI による調査です。事実と異なることが含まれています。
 - [坂本龍一 - Merry Christmas Mr. Lawrence](<坂本龍一 - Merry Christmas Mr. Lawrence.html>)
 - [堂島孝平 - 世界は僕のもの](<堂島孝平 - 世界は僕のもの.html>)
 - [外道 - 香り](<外道 - 香り.html>)
+- [小沢健二 - 天気読み](<小沢健二 - 天気読み.html>)
 - [早見優 - 急いで！初恋](<早見優 - 急いで！初恋.html>)
 - [浜田省吾 - 風を感じて](<浜田省吾 - 風を感じて.html>)
 - [矢沢永吉 - 時間よ止まれ](<矢沢永吉 - 時間よ止まれ.html>)
