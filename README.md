@@ -20,4 +20,7 @@ AI による調査です。事実と異なることが含まれています。
 - [ORIGINAL LOVE - サンシャイン・ロマンス](<ORIGINAL LOVE - サンシャイン・ロマンス.html>)
 - [Uco - Happy Ending](<Uco - Happy Ending.html>)
 - [あんスタ - Surprising Thanks](<あんスタ - Surprising Thanks.html>)
+- [デレステ - Blooming Days](<デレステ - Blooming Days.html>)
+- [デレステ - O-Ku-Ri-Mo-No Sunday](<デレステ - O-Ku-Ri-Mo-No Sunday.html>)
+- [七草にちか - フェアリー・ガール](<七草にちか - フェアリー・ガール.html>)
 - [早見優 - 急いで！初恋](<早見優 - 急いで！初恋.html>)
