@@ -15,6 +15,7 @@
 | [John Lennon - Starting Over.html](<../John Lennon - Starting Over.html>) | ChatGPT |
 | [John Lennon - Woman.html](<../John Lennon - Woman.html>) | ChatGPT |
 | [John Sebastian - Welcome Back.html](<../John Sebastian - Welcome Back.html>) | ChatGPT |
+| [Katrina and the Waves - Walking on Sunshine.html](<../Katrina and the Waves - Walking on Sunshine.html>) | Unknown |
 | [Lionel Richie - You Are.html](<../Lionel Richie - You Are.html>) | Claude |
 | [MAISONdes - トウキョウ・シャンディ・ランデヴ.html](<../MAISONdes - トウキョウ・シャンディ・ランデヴ.html>) | Gemini |
 | [Michael Fortunati - Give Me Up.html](<../Michael Fortunati - Give Me Up.html>) | ChatGPT |
@@ -64,6 +65,7 @@
 | [堂島孝平 - 世界は僕のもの.html](<../堂島孝平 - 世界は僕のもの.html>) | Gemini |
 | [外道 - 香り.html](<../外道 - 香り.html>) | Gemini |
 | [小沢健二 - 天気読み.html](<../小沢健二 - 天気読み.html>) | Claude |
+| [小沢健二 - 強い気持ち・強い愛.html](<../小沢健二 - 強い気持ち・強い愛.html>) | Claude |
 | [早見優 - 急いで！初恋.html](<../早見優 - 急いで！初恋.html>) | Claude |
 | [浜田省吾 - 風を感じて.html](<../浜田省吾 - 風を感じて.html>) | Gemini |
 | [矢沢永吉 - 時間よ止まれ.html](<../矢沢永吉 - 時間よ止まれ.html>) | Gemini |

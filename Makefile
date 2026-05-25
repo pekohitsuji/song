@@ -40,6 +40,6 @@ README.md : README.sh Makefile *.html
 	@echo Updated: $?
 	ls -- *.html | sed '/---temp\.html/d' | xargs -d '\n' ./README.sh
 
-tool/identify_ai.md : tool/identify_ai.py Makefile
+tool/identify_ai.md : tool/identify_ai.py Makefile *.html
 	@echo Updated: $?
 	$(PYTHON) $< > $@
