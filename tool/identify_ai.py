@@ -40,4 +40,4 @@ for file in files:
 print("| HTML ファイル名 | 作成したAI |")
 print("| :--- | :--- |")
 for filename, ai in results:
-    print(f"| [{filename}](<{filename}>) | {ai} |")
+    print(f"| [{filename}](<../{filename}>) | {ai} |")

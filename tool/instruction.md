@@ -23,6 +23,24 @@
 2. 本文が英語の Wikipedia
 3. リンクしない
 
+# 生成する HTML 仕様
+
+- HTML ファイル名は "アーティスト - 曲名.html"
+- title タグ内は アーティスト - 曲名
+- body直下には header, main, footer のみ配置すること
+- h1, h2, h3, h4, h5, h6 タグは使うな
+- header タグ内は p, div タグは使わず、作成年月日 AIモデル を記述せよ
+  - 作成年月日は YYYY-mm-DD 形式で
+  - AIモデルはバージョンまで含め詳しく。
+    その AIモデルが使える代表的な WEB 版 UI へのリンクにせよ
+- main タグ直下には table タグを1つだけ配置すること
+- footer タグ内は空にせよ
+- head タグ内に以下を完全一致で入れること
+```
+<link rel="stylesheet" href="../css/base/song.css">
+<link rel="stylesheet" href="../css/dark/song.css">
+```
+
 # 手順1
 
 - 曲について下記「表の項目」を調査し、表形式で表示せよ
@@ -53,32 +71,13 @@
 - 上記 手順1 で作成した表の HTML ファイルを作成せよ
 - 人物、団体、コンテンツ、作品に関するサイトがあるなら
   上記「リンクの優先順位」を基準にしてリンクせよ
-- 以下の「生成する HTML 仕様」に違反してないか自己確認してから出力せよ
+- 上記「生成する HTML 仕様」に違反してないか自己確認してから出力せよ
 - HTMLコードをコードブロックとして出力してはならない。
   必ず実際のHTMLファイルを生成し、
   ユーザーがダウンロード可能な状態で提示すること
 - ダウンロードリンクやダウンロード用ボタンが作れないなら
-  (ChatGPT や Claude は作れるが Gemini は作れない)
   コードブロックとして HTML コードの出力せよ
-
-### 生成する HTML 仕様
-
-- HTML ファイル名は "アーティスト - 曲名.html"
-- title タグ内は アーティスト - 曲名
-- body直下には header, main, footer のみ配置すること
-- h1, h2, h3, h4, h5, h6 タグは使うな
-- header タグ内は p, div タグは使わず、
-  作成年月日 AIモデル名 を記述せよ
-  - 作成年月日は YYYY-mm-DD 形式で
-  - AIモデル名はバージョンまで含め詳しく。
-    その AIモデルが使える代表的な WEB 版 UI へのリンクにせよ
-- main タグ直下には table タグを1つだけ配置すること
-- footer タグ内は空にせよ
-- head タグ内に以下を完全一致で入れること
-```
-<link rel="stylesheet" href="../css/base/song.css">
-<link rel="stylesheet" href="../css/dark/song.css">
-```
+  (ChatGPT や Claude は作れるが Gemini は作れない)
 
 # 手順3
 
