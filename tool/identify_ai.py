@@ -37,10 +37,7 @@ for file in files:
     ai = identify_ai(file)
     results.append((file, ai))
 
-with open("identify_ai.md", "w", encoding="utf-8") as f:
-    f.write("| HTML ファイル名 | 作成したAI |\n")
-    f.write("| :--- | :--- |\n")
-    for filename, ai in results:
-        f.write(f"| [{filename}](<{filename}>) | {ai} |\n")
-
-print(f"Processed {len(results)} files.")
+print("| HTML ファイル名 | 作成したAI |")
+print("| :--- | :--- |")
+for filename, ai in results:
+    print(f"| [{filename}](<{filename}>) | {ai} |")

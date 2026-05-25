@@ -1,15 +1,9 @@
 <!-- coding: utf-8-unix; mode: markdown -->
 # 曲の調査と報告
 
-## ツール
-
-| ツール | 結果 | 内容 |
-|--------|:-----|:-----|
-| [identify_ai.py](identify_ai.py) | [identify_ai.md](identify_ai.md) | どの AI で生成したか |
-
 ## 調査方法
 
-下記に [instruction](<---instruction.md>) を入力する
+下記に [instruction](<tool/instruction.md>) を入力する
 
 | AI      | 入力箇所 | 1日最大 | 備考 |
 |:--------|:---------|--------:|:-----|
@@ -90,3 +84,9 @@ AI による調査です。事実と異なることが含まれています。
 - [浜田省吾 - 風を感じて](<浜田省吾 - 風を感じて.html>)
 - [矢沢永吉 - 時間よ止まれ](<矢沢永吉 - 時間よ止まれ.html>)
 - [緑黄色社会 - Party](<緑黄色社会 - Party.html>)
+## ツール
+
+| ツール | 結果内容 |
+|--------|:---------|
+| [identify_ai.py](tool/identify_ai.py) | [生成AI同定](tool/identify_ai.md) |
+

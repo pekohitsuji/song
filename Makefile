@@ -1,11 +1,14 @@
 SHELL   := /bin/bash
 RM      := rm -f
 
+PYTHON  := python3
+SCHEME  := gosh
+
 GIT_URL = https://github.com/pekohitsuji/$(shell basename $$(pwd)).git
 GIT_CHK = git config remote.origin.url
 GIT_ADD = git remote add origin $(GIT_URL)
 
-HARVEST := README.md
+HARVEST := README.md tool/identify_ai.md
 
 all : $(HARVEST)
 
@@ -33,3 +36,7 @@ tags : TAGS
 README.md : README.sh Makefile *.html
 	@echo Updated: $?
 	ls -- *.html | sed '/---temp\.html/d' | xargs -d '\n' ./README.sh
+
+tool/identify_ai.md : tool/identify_ai.py Makefile
+	@echo Updated: $?
+	$(PYTHON) $< > $@

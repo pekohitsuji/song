@@ -6,19 +6,15 @@
 
 out=README.md
 
-cat > "${out}" << 'EOT'
+rm -f ${out}
+
+cat >> "${out}" << 'EOT'
 <!-- coding: utf-8-unix; mode: markdown -->
 # 曲の調査と報告
 
-## ツール
-
-| ツール | 結果 | 内容 |
-|--------|:-----|:-----|
-| [identify_ai.py](identify_ai.py) | [identify_ai.md](identify_ai.md) | どの AI で生成したか |
-
 ## 調査方法
 
-下記に [instruction](<---instruction.md>) を入力する
+下記に [instruction](<tool/instruction.md>) を入力する
 
 | AI      | 入力箇所 | 1日最大 | 備考 |
 |:--------|:---------|--------:|:-----|
@@ -36,3 +32,12 @@ EOT
 for x in "$@" ; do
   echo "- [${x%.html}](<$x>)"
 done >> "${out}"
+
+cat >> "${out}" << 'EOT'
+## ツール
+
+| ツール | 結果内容 |
+|--------|:---------|
+| [identify_ai.py](tool/identify_ai.py) | [生成AI同定](tool/identify_ai.md) |
+
+EOT
