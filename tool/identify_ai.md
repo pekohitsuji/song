@@ -40,7 +40,9 @@
 | [Trickstar - Finder Girl.html](<../Trickstar - Finder Girl.html>) | Gemini |
 | [Uco - Happy Ending.html](<../Uco - Happy Ending.html>) | Claude |
 | [Wham - Club Tropicana.html](<../Wham - Club Tropicana.html>) | ChatGPT |
-| [milk rings 鷲崎健と浅野真澄 - 日曜日.html](<../milk rings 鷲崎健と浅野真澄 - 日曜日.html>) | Gemini |
+| [milk rings - 日曜日 - chatgpt.html](<../milk rings - 日曜日 - chatgpt.html>) | Unknown |
+| [milk rings - 日曜日 - claude.html](<../milk rings - 日曜日 - claude.html>) | Claude |
+| [milk rings - 日曜日 - gemini.html](<../milk rings - 日曜日 - gemini.html>) | Gemini |
 | [あんスタ - Aisle be with you.html](<../あんスタ - Aisle be with you.html>) | Gemini |
 | [あんスタ - Heart aid Cafeteria.html](<../あんスタ - Heart aid Cafeteria.html>) | ChatGPT |
 | [あんスタ - LEMON SQUASH CHEERS.html](<../あんスタ - LEMON SQUASH CHEERS.html>) | ChatGPT |
